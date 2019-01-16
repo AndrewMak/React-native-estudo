@@ -3,13 +3,13 @@ import { View, StyleSheet } from 'react-native'
 
 import Simples from './componentes/Simples'
 import ParImpar from './componentes/ParImpar'
-import Inverter, { MegaSena } from './componentes/Multi'
 
 export default class App extends React.Component {
 	render() {
 		return (
 			<View style={styles.container}>
 				<Simples texto='Flexível!!!!' />
+				<ParImpar numero={28} />
 			</View>
 		)
 	}

@@ -10,7 +10,12 @@ import Evento from './componentes/Evento'
 import Avo from './componentes/ComunicacaoDireto'
 import TextoSincronizado from './componentes/ComunicacaoIndireta'
 import Flex from './componentes/Flex'
+import FlexList from './componentes/FlexList'
+
 export default createDrawerNavigator({
+    FlexList: { 
+        screen:() => <FlexList/>
+    },
     TextoSincronizado: {
         screen:() => <TextoSincronizado/>
     },
